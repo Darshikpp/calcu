@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+   <div class="container">
+   <form action="">
+   <p><B>SAMSUNG</p></B>
+
+<input type="text" id="screen">
+<br>
+  <input class="button number" type="button" value="7" onclick="displayNum(7)">
+  <input class="button number" type="button" value="8" onclick="displayNum(8)">
+  <input class="button number" type="button" value="9" onclick="displayNum(9)">
+  <input class="button operator" type="button" value="/" onclick="displayNum('/')">
+   
+
+
+  <input class="button number" type="button" value="4" onclick="displayNum(4)">
+  <input class="button number" type="button" value="5" onclick="displayNum(5)">
+  <input class="button number" type="button" value="6" onclick="displayNum(6)">
+  <input class="button operator" type="button" value="*" onclick="displayNum('*')">
+
+
+
+  <input class="button number" type="button" value="1" onclick="displayNum(1)">
+  <input class="button number" type="button" value="2" onclick="displayNum(2)">
+  <input class="button number" type="button" value="3" onclick="displayNum(3)">
+  <input class="button operator" type="button" value="+" onclick="displayNum('+')">
+
+
+  <input class="button clear" type="button" value="c" onclick="clearBox()">
+  <input class="button number" type="button" value="0" onclick="displayNum(0)">
+  <input class="button operator" type="button" value="=" onclick="evaluateExpression()">
+  <input class="button result" type="button" value="-" onclick="displayNum('-')">
+
+  <input class="button result" type="button" value="del" onclick="removeLast()">
+
+
+
+   </form>
+
+
+   </div>
+
+
+   <script src="./script.js"></script>
+    
+</body>
+</html>
